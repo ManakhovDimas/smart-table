@@ -1,6 +1,8 @@
+import { sortMap } from "../lib/sort";
 
 export function initSorting(columns) {
     return (query, state, action) => {
+
         let field = null;
         let order = null;
 

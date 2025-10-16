@@ -64,6 +64,8 @@ const sampleTable = initTable({
     after: ['pagination']
 }, render);
 
+
+
 // @todo: инициализация
 const { updateIndexes, applyFiltering } = initFiltering(sampleTable.filter.elements);
 
